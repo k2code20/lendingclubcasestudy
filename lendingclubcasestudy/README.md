@@ -1,52 +1,57 @@
-# Project Name
-> Outline a brief description of your project.
+# Lending Club Case Study
+
+Datasets were collected and processed for further consumption. This included Removing the null values, Duplicates, Imputation, and correction of outliers. 
+EDA method used to analyse the datasets very well for the better understanding. This included Univariate, Bivariate, Segmented and Multivariate analysis.
+Then, the analysis was visualised clearly. This included Bar plot, box plots, Scatter plot, Stacked plots. 
+
 
 
 ## Table of Contents
-* [General Info](#general-information)
-* [Technologies Used](#technologies-used)
-* [Conclusions](#conclusions)
-* [Acknowledgements](#acknowledgements)
+* Objective
+* Data Handling
+* Data cleaning
+* Univariate Analysis
+* Bivariate Analysis
+* Multivariate Analysis
+* Conclusion
 
-<!-- You can include any other section that is pertinent to your problem -->
 
 ## General Information
-- Provide general information about your project here.
-- What is the background of your project?
-- What is the business probem that your project is trying to solve?
-- What is the dataset that is being used?
 
-<!-- You don't have to answer all the questions - just the ones relevant to your project. -->
+A firm delivering loan applications to people have defaulters, who does not re-pay their loan. With the help of datasets that has past history of all the loan applicants who defaulted/fully paid/Currently paying applicants and their information, an EDA needed to understand the previous patterns of defaulters so that the firm can be aware of the defaulters on prior.
+
+Datasets Inputs: 
+Dataset1 = loan.csv (Contains ample amount of features of the respective individuals taken loan)
+Dataset2 = Data_Dictionary.xlsx (Description of the features present in the Dataset1)
+
 
 ## Conclusions
-- Conclusion 1 from the analysis
-- Conclusion 2 from the analysis
-- Conclusion 3 from the analysis
-- Conclusion 4 from the analysis
+- Data handling showed there are many NULL values, Unnecessary features and Duplicates present.
+- Data cleaning done to retrieve the necessary features that are required for analysis 
+- Univariate analysis done to understand the individual features over the loan applicants.
+	- Result: 14% of the loan applicants are likely to default 
+- Bivariate analysis done to understand relationship between features. 
+	- Result: Annual inc positively correlated with Loan recoveries
+- Multivariate analysis done to understand relationship between multiple factors.
 
-<!-- You don't have to answer all the questions - just the ones relevant to your project. -->
-
+Driving Factors:
+annual _inc
+funded_amnt_inv
+int_rate
+term
+grade
+purpose
+addr_state
 
 ## Technologies Used
-- library - version 1.0
-- library - version 2.0
-- library - version 3.0
-
-<!-- As the libraries versions keep on changing, it is recommended to mention the version of library used in this project -->
+- library - pandas
+- library - matplotlib
+- library - seaborn
 
 ## Acknowledgements
-Give credit here.
-- This project was inspired by...
-- References if any...
-- This project was based on [this tutorial](https://www.example.com).
+Thanks to upgrad for letting us work with the real world datasets. 
 
 
 ## Contact
 Created by [@githubusername] - feel free to contact me!
 
-
-<!-- Optional -->
-<!-- ## License -->
-<!-- This project is open source and available under the [... License](). -->
-
-<!-- You don't have to include all sections - just the one's relevant to your project -->
